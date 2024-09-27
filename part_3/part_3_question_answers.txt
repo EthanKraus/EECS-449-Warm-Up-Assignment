@@ -1,0 +1,18 @@
+QUESTION 1:
+The new enum ChatType that we created is to represent when our ChatBot is in a prohibited state. A prohibited state
+is defined as a state in which the dialogue prompt that the ChatBot has received would elicit the user with 
+an answer regarding illegal or prohibited activities according to US law. The prohibited state can be used within 
+our ChatBot when the question asked by the user regards illegal activities and the ChatBot is unable to give 
+an appropriate response, so the ChatBot then enter a prohibited ChatType state. Examples of topics that would 
+force the ChatBot to enter the prohibitied state would include, but are not limited to:
+- weapons
+- crime
+- advice on other illegal activities, etc.
+
+QUESTION 2:
+Based on the classify() function, our ChatBot will look at our user's questions and then categorize the query into one
+of 3 categories: either RAG, QA, or PROHIBITED. This classify() function looks at the query and if it believes
+the question is relating to illegal activities (i.e. keywords like "drugs", "hack", "crime", etc.) then it will
+subsequently route the ChatBot to our newly created ChatType of PROHIBITED. This will then force the ChatBot into our
+PROHIBITED ChatType state and it will be forced to respond with an answer saying that it is not allowed to answer
+questions relating to illegal activity.
