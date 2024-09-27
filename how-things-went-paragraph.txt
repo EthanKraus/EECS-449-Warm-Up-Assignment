@@ -1,0 +1,9 @@
+HOW THINGS WENT PARAGRAPH:
+For the most part, this project went well and there were only a few parts where I ran into significant trouble. 
+It was extremely interesting to learn how the backend of LLMs work because before running through this code-along, 
+I had no clue how most LLMs functioned under the hood. In part 2, I had a bit of difficulty with trying to find 
+2 different LLMs to answer my user-generated questions, but eventually I was able to figure it out. I also had 
+trouble with using curl to send API requests throughout all parts of the project because there were many instances 
+where I had to look up syntax for what exactly needed to be included in my API requests. Overall, the project went 
+seamlessly for me and it was a great learning experience, especially within the context of a class centered on 
+conversational AI.
